@@ -1,0 +1,50 @@
+thead tr {
+	background-color: black;
+	color: white;
+}
+
+tr {
+	background-color: white;
+}
+
+#site-header {
+	font-family: 'Pattaya', sans-serif;
+	font-size: 24px;
+	color: white;
+}
+
+.nav-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bolder;
+	color: red;
+}
+
+body {
+	background-color: #F8F8F8;
+}
+
+#site-header:hover {
+	color: orange;
+}
+
+.filter-header{
+	background-color: black;
+	padding-top: 5px;
+	margin-top: 10px;
+	height: 50px;
+	vertical-align: center;
+	color: white;
+}
+
+.filter-content{
+	background-color: white;
+	height: 150px;
+	vertical-align: center;
+	padding-bottom: 50px;
+	margin-bottom: 10px;
+
+}
+
+
+
+

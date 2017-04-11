@@ -1,0 +1,48 @@
+{> "layout" /}
+
+{<body}
+
+
+
+<div class="row">
+<div class="col-md-12 filter-header">
+  <span>Filter</span>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 filter-content">
+    <span>Content</span>
+  </div>
+</div>
+
+  <table class="table table-bordered table-responsive">
+    <thead>
+      <tr>
+      	<th>Link</th>
+        <th>Region</th>
+        <th>Platform</th>
+        <th>Message</th>
+        <th>Time</th>
+      </tr>
+    </thead>
+    {#titles}
+    <tbody>
+      <tr data-region="{region}" data-platform="{platform}" data-message="{message}">
+      	<td><a href="{link}">Link</a></td>
+        <td>{region}</td>
+        <td>{platform}</td>
+        <td>{message}</td>
+        <td>{time}</td>
+      </tr>
+    </tbody>
+
+    {/titles}
+  </table>
+  </div>
+
+
+	
+
+
+
+{/body}
