@@ -54,7 +54,7 @@ app.use(function(err, req, res, next) {
 });
 
 app.listen(3000, function(){
-	scrape();
+  setInterval(function(){scrape()}, 1000);
 	console.log("Server listening on port 3000");
 });
 
